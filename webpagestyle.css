@@ -173,10 +173,15 @@ body {
   width: 100%;
 }
 
+.tennisrules{
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
 .breakoutheader {
   text-align: center;
-  margin-bottom: 15px;
-  font-size: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
 }
 
 .menugame ul {

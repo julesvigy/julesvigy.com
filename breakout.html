@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Breakout</title>
+  <title>Wall Ball</title>
 <link href="webpagestyle.css" rel="stylesheet">
   <style type="text/css">
     body {
@@ -26,9 +26,11 @@
     <li><a class="active" href="about.html">RESUME</a></li>
   </ul>
   </div>
-
+  <div class="tennisrules">
+  Don't let the ball touch the bottom!
+</div>
   <div class="breakoutheader">
-  Updates Coming Soon!
+  Updates Coming Soon...
 </div>
   <canvas id="game-canvas" height="600px" width="800px" </canvas>
 
@@ -48,13 +50,13 @@
       var pongX = (canvas.width - pongW) / 2;
       var rightKey = false;
       var leftKey = false;
-      var brickRows = 0; //
-      var brickCol = 0; //
+      var brickRows = 0; // not used
+      var brickCol = 0; // not used
       var brickW = 75;
       var brickH = 20;
-      var brickPadding = 0; //
-      var brickOffsetTop = 0; //
-      var brickOffsetLeft = 0; //
+      var brickPadding = 0; // not used
+      var brickOffsetTop = 0; // not used
+      var brickOffsetLeft = 0; // not used
       var gamestatus = true;
       var counter = 0;
       if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -73,8 +75,6 @@
           };
         }
       }
-
-
        // function to draw the ball
       function drawBall() {
         ctx.beginPath();
@@ -142,17 +142,15 @@
         } else if (y + dy > canvas.height - ballR) {
           if (x > pongX && x < pongX + pongW) {
             dy = -dy;
-            counter = counter + 1;
+            if (gamestatus) {
+              counter += 1;
+            }
           } else {
+            gamestatus = false;
             ctx.font = "40px Arial";
             ctx.fillStyle = "black";
-            ctx.fillText("Press SB to Play Again",150,100);
-            ctx.fillText("Score: " + counter,150,200);
-// while(true){
-//
-// }
-            //document.addEventListener("", keyDown, false);
-
+            ctx.fillText("(Cmd + Shift + R) to play again",150,100);
+            ctx.fillText("Final Score: " + counter,150,200);
             //document.location.reload();
           }
         }
