@@ -56,6 +56,7 @@
       var brickOffsetTop = 0; //
       var brickOffsetLeft = 0; //
       var gamestatus = true;
+      var counter = 0;
       if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
        gamestatus = false;
        ctx.font = "50px Arial";
@@ -141,8 +142,16 @@
         } else if (y + dy > canvas.height - ballR) {
           if (x > pongX && x < pongX + pongW) {
             dy = -dy;
+            counter = counter + 1;
           } else {
-
+            ctx.font = "40px Arial";
+            ctx.fillStyle = "black";
+            ctx.fillText("Press SB to Play Again",150,100);
+            ctx.fillText("Score: " + counter,150,200);
+// while(true){
+//
+// }
+            //document.addEventListener("", keyDown, false);
 
             //document.location.reload();
           }
