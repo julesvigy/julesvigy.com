@@ -4,16 +4,17 @@ h1 {
   text-align: center;
   margin-top: 10px;
   font-size: 50px;
+  object-fit: contain;
 }
 
 .HomePageProfile{
-  width: 18%;
+  width: 18em;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 50px;
-  object-fit: cover;
+  object-fit: auto;
 }
 
 .UW {
@@ -170,4 +171,36 @@ body {
   left: 0;
   text-align: center;
   width: 100%;
+}
+
+.breakoutheader {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.menugame ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffcc99;
+
+}
+
+.menugame li {
+  float: left;
+}
+
+.menugame li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.menugame li :hover {
+  background-color: white;
 }
