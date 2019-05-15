@@ -48,14 +48,18 @@
       var pongX = (canvas.width - pongW) / 2;
       var rightKey = false;
       var leftKey = false;
-      var brickRows = 3;
-      var brickCol = 9;
+      var brickRows = 0; //
+      var brickCol = 0; //
       var brickW = 75;
       var brickH = 20;
-      var brickPadding = 10;
-      var brickOffsetTop = 30;
-      var brickOffsetLeft = 30;
-
+      var brickPadding = 0; //
+      var brickOffsetTop = 0; //
+      var brickOffsetLeft = 0; //
+      var gamestatus = true;
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+       gamestatus = false;
+       
+      }
       var bricks = [];
       for (c = 0; c < brickCol; c++) {
         bricks[c] = [];
@@ -87,7 +91,7 @@
         ctx.closePath();
       }
 
-       // function draw the bricks
+       // not used in tenis version of game
       function drawBricks() {
         for (c = 0; c < brickCol; c++) {
           for (r = 0; r < brickRows; r++) {
@@ -98,7 +102,7 @@
               bricks[c][r].y = brickY;
               ctx.beginPath();
               ctx.rect(brickX, brickY, brickW, brickH);
-              ctx.fillStyle = "green";
+              ctx.fillStyle = "white"; // dev mode
               ctx.fill();
               ctx.closePath();
             }
@@ -137,10 +141,9 @@
           if (x > pongX && x < pongX + pongW) {
             dy = -dy;
           } else {
-            // if the ball hits the bottom of canvas
-            // reload the game
 
-            document.location.reload();
+
+            //document.location.reload();
           }
         }
         // when key is pressed
@@ -177,8 +180,9 @@
         x += dx;
         y += dy;
       }
-
-      setInterval(draw, 10);
+if (gamestatus) {
+      setInterval(draw, 7);
+    }
 </script>
 
 </body>
