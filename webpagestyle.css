@@ -1,4 +1,5 @@
 html { overflow-y: scroll; overflow-x:hidden;}
+
 h1 {
   color: black;
   text-align: center;
@@ -39,7 +40,6 @@ h1 {
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
 
-
 body {
     font-family: "Lato", sans-serif;
     overflow:hidden;
@@ -71,11 +71,9 @@ body {
     margin-right:auto;
 }
 
-
 .menulist {
     width:225px;
 }
-
 
 .logo {
     text-align:center;
@@ -178,6 +176,7 @@ body {
   margin-bottom: 5px;
   font-size: 25px;
 }
+
 .breakoutheader {
   text-align: center;
   margin-bottom: 20px;
@@ -190,7 +189,6 @@ body {
   padding: 0;
   overflow: hidden;
   background-color: #ffcc99;
-
 }
 
 .menugame li {
@@ -203,9 +201,8 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-
 }
 
 .menugame li :hover {
-  background-color: white;
+  text-decoration: underline;
 }
