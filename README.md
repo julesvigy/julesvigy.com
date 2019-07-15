@@ -1,1 +1,1 @@
-Link to Landing-Page: https://julesvigy.github.io/Landing-Page/ 
+Link to Landing-Page: julesvigy.com
