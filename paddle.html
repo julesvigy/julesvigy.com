@@ -58,6 +58,7 @@
       var brickOffsetLeft = 0; // not used
       var gamestatus = true;
       var counter = 0;
+      var gameInterval = 0;
       if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
        gamestatus = false;
        ctx.font = "50px Arial";
@@ -150,6 +151,7 @@
             ctx.fillStyle = "black";
             ctx.fillText("(Cmd + Shift + R) to play again",150,100);
             ctx.fillText("Final Score: " + counter,150,200);
+            clearInterval(gameInterval);
             //document.location.reload();
           }
         }
@@ -188,7 +190,7 @@
         y += dy;
       }
 if (gamestatus) {
-      setInterval(draw, 11);
+      gameInterval = setInterval(draw, 11);
     }
 </script>
 
