@@ -51,3 +51,11 @@ h1 {
 .menugame li :hover {
   text-decoration: underline;
 }
+.copy {
+  bottom: 0em;
+  margin-top: 20px;
+  height: 6em;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
