@@ -1,7 +1,7 @@
 html { overflow-y: scroll; overflow-x:hidden;}
 
 h1 {
-  color: black;
+  color: white;
   text-align: center;
   margin-top: 10px;
   font-size: 50px;
@@ -44,7 +44,7 @@ body {
     font-family: "Lato", sans-serif;
     overflow:hidden;
     transition: background-color .5s;
-    background-color: #ffcc99;
+    background-color: white;
 }
 
 .navigation {
@@ -53,7 +53,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #ffcc99;
+    background-color: white;
     overflow: hidden;
     transition: all 0.4s ease-in-out;
     padding-top: 10px;
@@ -121,7 +121,7 @@ body {
     display: inline-block;
     position:relative;
     text-align:center;
-    color: black;
+    color: white;
     opacity:0.0;
     transition: all .5s ease-in-out;
 }
@@ -149,7 +149,7 @@ body {
     font-size: 36px !important;
     margin-right: 50px;
     z-index:100;
-    color:#fff;
+    color: white;
     cursor:pointer;
     trainsition:background-position .3s;
 }
@@ -175,12 +175,14 @@ body {
   text-align: center;
   margin-bottom: 5px;
   font-size: 25px;
+   color: white;
 }
 
 .breakoutheader {
   text-align: center;
   margin-bottom: 20px;
   font-size: 15px;
+  color: white;
 }
 
 .menugame ul {
@@ -188,7 +190,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ffcc99;
+  background-color: #000000;
 }
 
 .menugame li {
@@ -201,6 +203,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  color: white;
 }
 
 .menugame li :hover {

@@ -3,11 +3,11 @@ html { overflow-y: scroll; overflow-x:hidden;}
 body {
     font-family: "Lato", sans-serif;
     overflow:hidden;
-    background-color: #ffcc99;
+    background-color: #000000;
   }
 
 h1 {
-  color: black;
+  color: white;
   text-align: center;
   margin-top: 10px;
   font-size: 50px;
@@ -19,6 +19,7 @@ h1 {
   font-size: 20px;
   margin-left: 25%;
   text-align: justify;
+  color: white;
 }
 
 .about{
@@ -27,13 +28,14 @@ h1 {
   font-size: 20px;
   text-align: center;
   text-align: justify;
+  color: white;
 }
 .menugame ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #ffcc99;
+  background-color: #000000;
 }
 
 .menugame li {
