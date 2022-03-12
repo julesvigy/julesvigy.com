@@ -9,6 +9,6 @@ github_username:  julesvigy
 linkedin_username: julesvigy
 
 # Build settings
-theme: jekyll-theme-dinky
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
