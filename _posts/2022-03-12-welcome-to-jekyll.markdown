@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  "AWS Serverless Architecture Gotchas"
-date:   2014-07-02 10:00:00
-excerpt_separator: <!--more-->
+title:  "Welcome to Jekyll!"
+date:   2022-03-12 19:13:27 -0600
+categories: jekyll update
 ---
-
-You’ll find this post in your directory. Go ahead and edit it and re-build. This is simply a test just checking that the output looks good and something easily readable.
-<!--more-->
-You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
 
