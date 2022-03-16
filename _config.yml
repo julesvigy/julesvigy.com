@@ -1,9 +1,10 @@
 title: julesvigy.com
 email: jules.vigy@aol.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# Socials
 linkedin_username: julesvigy
 github_username:  julesvigy
+
+description: If you are reading this you have found my blog. Please feel free to look around. It is important to note that any content on this site is strictly my opinion and not that of any organization I am affiliated with.
 
 show_excerpts: true
 header_pages:
