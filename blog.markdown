@@ -6,5 +6,9 @@ layout: home
 title: My Blog
 permalink: /blog
 ---
-<span style="color:grey">*Warning to any reader of this blog! I am not a professional blogger, nor am I a writer. I am just a curious mind who enjoys musing from time to time.*</span>
+<span style="color:grey">*This blog's primary purpose is to compile and organize information on topics that interest me.*</span>
 
+Some guiding principles:
+
+- If you can't explain it simply, you don't understand it well enough. *- Albert Einstein*
+- What I cannot create, I do not understand. *- Richard Feynman*

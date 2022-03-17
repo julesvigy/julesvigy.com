@@ -4,7 +4,7 @@ title: About Me
 permalink: /
 ---
 <div style="float:left; margin-right:1.5em; margin-bottom:1.5em;" >
-    <img src="assets/profile_picture.jpg" />
+    <img src="assets/profile_picture.PNG" />
 </div>
 
 # Bio
