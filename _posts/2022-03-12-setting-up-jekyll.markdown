@@ -7,12 +7,12 @@ categories: jekyll update
 Setting up this blog required me to google around a bit, so I figured I would make a step by step guide on how to get a [Jekyll](https://jekyllrb.com/) blog created, running locally on mac, and deployed to github pages.
 
 # **1) Install homebrew (if you dont already have it)**
-The link to homebrew is [here](https://brew.sh/).
+The link to homebrew is [here](https://brew.sh/)
 
 # **2) Install Ruby**
 Once you have homebrew installed
 
-Run `brew install ruby` in termial to install ruby.
+Run `brew install ruby` in termial to install ruby
 
 # **3) Ensure you have the latest version of Ruby**
 - Run `ruby -v` in terminal
@@ -22,7 +22,7 @@ Run `brew install ruby` in termial to install ruby.
 - Run `ruby -v` in terminal and confirm > 3
 
 # **4) Create a new GitHub Repository**
-1. [Create] (https://docs.github.com/en/get-started/quickstart/create-a-repo) a new GitHub repository
+1. [Create](https://docs.github.com/en/get-started/quickstart/create-a-repo) a new GitHub repository
 2. `git clone <repository name>` to your local machine
 
 # **5) Install Jekyll**
@@ -46,12 +46,12 @@ At this point you should see your site running locally.
 
 # **8) Push and Deploy**
 1. Push the changes to GitHub
-2. Deploy to GitHub Pages using this [guide](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
+2. Deploy to GitHub Pages using this [guide](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site)
 
 # **9) Final Remarks**
 Congrats you have created a [Jekyll](https://jekyllrb.com/) site!
 
 Some helpful links I found when looking to make edits to my site:
 - [Jekyll Documentation](https://jekyllrb.com/docs/)
-- [Jekyll GitHub](https://github.com/jekyll/jekyll) has a very thorough readme.
+- [Jekyll GitHub](https://github.com/jekyll/jekyll) has a very thorough readme
 - [Andrei Karpathy's blog Repository](https://github.com/karpathy/karpathy.github.io)
