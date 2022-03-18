@@ -21,7 +21,7 @@ Run `brew install ruby` in termial to install ruby.
 
 - Run `ruby -v` in terminal and confirm > 3
 
-# **4) Create a new GitHub Reposoitory**
+# **4) Create a new GitHub Repository**
 1. [Create] (https://docs.github.com/en/get-started/quickstart/create-a-repo) a new GitHub repository
 2. `git clone <repository name>` to your local machine
 
@@ -38,18 +38,18 @@ Open the `Gemfile` file in your newly populated directory and add the following 
 I added webrick to the Gemfile so I could run the site locally. This may or may not be necessary depending on your setup.
 
 # **7) Run the site locally**
-1. Run `bundle update`
+1. Run `bundle update` to build
 2. Start your site with `bundle exec jekyll serve`
 3. Open a browser and navigate to `http://localhost:4000`
 
 At this point you should see your site running locally.
 
 # **8) Push and Deploy**
-1. Push then chnages to GitHub
+1. Push the changes to GitHub
 2. Deploy to GitHub Pages using this [guide](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
 
 # **9) Final Remarks**
-Congrats you have a [Jekyll](https://jekyllrb.com/) site!
+Congrats you have created a [Jekyll](https://jekyllrb.com/) site!
 
 Some helpful links I found when looking to make edits to my site:
 - [Jekyll Documentation](https://jekyllrb.com/docs/)
