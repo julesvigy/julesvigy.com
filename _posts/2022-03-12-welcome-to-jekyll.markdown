@@ -1,29 +1,57 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2022-03-12 19:13:27 -0600
+title:  "Setting up Jekyll"
+date:   2022-03-17 19:13:27 -0600
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Setting up this blog required me to google around a bit, so I figured I would make a step by step guide on how to get a [Jekyll](https://jekyllrb.com/) blog created, running locally on mac, and deployed to github pages.
 
-Jekyll requires blog post files to be named according to the following format:
+# **1) Install homebrew (if you dont already have it)**
+The link to homebrew is [here](https://brew.sh/).
 
-`YEAR-MONTH-DAY-title.MARKUP`
+# **2) Install Ruby**
+Once you have homebrew installed
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Run `brew install ruby` in termial to install ruby.
 
-Jekyll also offers powerful support for code snippets:
+# **3) Ensure you have the latest version of Ruby**
+- Run `ruby -v` in terminal
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+- If version number > 3 link ruby by: `brew link --overwrite ruby`
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+- Run `ruby -v` in terminal and confirm > 3
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+# **4) Create a new GitHub Reposoitory**
+1. [Create] (https://docs.github.com/en/get-started/quickstart/create-a-repo) a new GitHub repository
+2. `git clone <repository name>` to your local machine
+
+# **5) Install Jekyll**
+1. `cd <new repository name>`
+2. Run `gem install bundler jekyll`
+3. After the install is done run `jekyll new .`
+
+At this point, you should have your directory populated with the default jekyll files.
+
+# **6) Add webrick**
+Open the `Gemfile` file in your newly populated directory and add the following line: `gem "webrick"`
+
+I added webrick to the Gemfile so I could run the site locally. This may or may not be necessary depending on your setup.
+
+# **7) Run the site locally**
+1. Run `bundle update`
+2. Start your site with `bundle exec jekyll serve`
+3. Open a browser and navigate to `http://localhost:4000`
+
+At this point you should see your site running locally.
+
+# **8) Push and Deploy**
+1. Push then chnages to GitHub
+2. Deploy to GitHub Pages using this [guide](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
+
+# **9) Final Remarks**
+Congrats you have a [Jekyll](https://jekyllrb.com/) site!
+
+Some helpful links I found when looking to make edits to my site:
+- [Jekyll Documentation](https://jekyllrb.com/docs/)
+- [Jekyll GitHub](https://github.com/jekyll/jekyll) has a very thorough readme.
+- [Andrei Karpathy's blog Repository](https://github.com/karpathy/karpathy.github.io)
