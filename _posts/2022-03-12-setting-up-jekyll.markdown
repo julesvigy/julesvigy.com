@@ -17,9 +17,9 @@ Run `brew install ruby` in termial to install ruby
 # **3) Ensure you have the latest version of Ruby**
 - Run `ruby -v` in terminal
 
-- If version number > 3 link ruby by: `brew link --overwrite ruby`
+- If version number is less than 3 link ruby by running: `brew link --overwrite ruby` in terminal
 
-- Run `ruby -v` in terminal and confirm > 3
+- Run `ruby -v` in terminal and confirm verison number is greater than 3
 
 # **4) Create a new GitHub Repository**
 1. [Create](https://docs.github.com/en/get-started/quickstart/create-a-repo) a new GitHub repository
@@ -54,4 +54,4 @@ Congrats you have created a [Jekyll](https://jekyllrb.com/) site!
 Some helpful links I found when looking to make edits to my site:
 - [Jekyll Documentation](https://jekyllrb.com/docs/)
 - [Jekyll GitHub](https://github.com/jekyll/jekyll) has a very thorough readme
-- [Andrei Karpathy's blog Repository](https://github.com/karpathy/karpathy.github.io)
+- Andrei Karpathy's blog [repository](https://github.com/karpathy/karpathy.github.io)
