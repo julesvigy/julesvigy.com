@@ -18,4 +18,4 @@ My name is Jules Vigy and I am a software engineer that graduated from the Unive
 
 # <u>Resume</u>
 
-For those interested, here is my [resume](jules_vigy_resume.pdf) (Last update: 04/11/2022).
+For those interested, here is my [resume](resume.pdf) (Last update: 04/11/2022).
