@@ -3,19 +3,19 @@ layout: page
 title: About Me
 permalink: /
 ---
+
 <div style="float:left; margin-right:1.5em; margin-bottom:1.5em;" >
     <img src="assets/profile_picture.PNG" />
 </div>
 
-# Bio
-My name is Jules Vigy and I am a software engineer that graduated from the University of Wisconsin-Madison with a degree in computer science. Originally, I emigrated from France, and in my time in university I found a passion for programming. When I am not working or hacking together personal projects, I love to spend time reading, running, and lifting weights. Occasionally, I enjoy indulging in the fine flavors of life including, but not limited to, champagne and cigars. I would one day hope to consider myself a connoisseur in these pleasures. 
+# <u>Bio</u>
 
+My name is Jules Vigy and I am a software engineer that graduated from the University of Wisconsin-Madison with a degree in computer science. Originally, I emigrated from France, and in my time in university I solidifed my passion for programming. When I am not working or hacking together personal projects, I enjoy spending time with family, reading, running, skiing, and lifting weights. Occasionally, I enjoy indulging in the fine flavors of life including, but not limited to, haute cusine, champagne, wine, and cigars. I one day aspire to be a [six star finisher](https://www.worldmarathonmajors.com/six-star) and a certified sommelier.
 
-<!-- **Here is my [resume](https://jekyllrb.com/).** -->
+# <u>Pet Projects</u>
 
-<!-- # Pet Projects
-**Lorem Ipsum** - since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+**[react-simple-maps](https://github.com/julesvigy/react-simple-maps)** - is an open source project that I created. The project aspires to provide simple and easy to use maps for [React](https://reactjs.org/). It is currently available for use on npm.
 
-**Lorem Ipsum** - since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+# <u>Resume</u>
 
-**Lorem Ipsum** - since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. -->
+For those interested, here is my [resume](jules_vigy_resume.pdf) (Last update: 04/11/2022).
