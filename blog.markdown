@@ -6,4 +6,5 @@ layout: home
 title: My Blog
 permalink: /blog
 ---
-<span style="color:grey">*Wherever curiosity leads me.*</span>
+
+<span style="color:grey">_Wherever curiosity leads me._</span>
