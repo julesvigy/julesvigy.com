@@ -2,16 +2,13 @@ title: julesvigy.com
 email: jules.vigy@aol.com
 # Socials
 linkedin_username: julesvigy
-github_username:  julesvigy
-
-description: If you are reading this you have found my blog. Please feel free to look around. It is important to note that any content on this site is strictly my opinion and not that of any organization I am affiliated with.
+github_username: julesvigy
 
 show_excerpts: true
 header_pages:
   - blog.markdown
 
-minima:
-  dark
+minima: dark
 
 # Build settings
 theme: minima
