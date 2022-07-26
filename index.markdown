@@ -15,7 +15,3 @@ My name is Jules Vigy and I am a software engineer that graduated from the Unive
 # <u>Pet Projects</u>
 
 **[@react-simple-maps](https://github.com/julesvigy/react-simple-maps)** - is an open source project that I founded. The project aspires to provide simple and easy to use maps for [React](https://reactjs.org/). It is currently available for use on npm.
-
-# <u>Resume</u>
-
-For those interested, here is my [resume](resume.pdf) (Last update: 04/11/2022).
