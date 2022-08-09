@@ -6,7 +6,7 @@ github_username: julesvigy
 
 show_excerpts: true
 header_pages:
-  - blog.markdown
+  - about.markdown
 
 minima: dark
 
