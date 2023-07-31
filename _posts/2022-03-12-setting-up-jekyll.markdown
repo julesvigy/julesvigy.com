@@ -21,7 +21,7 @@ Run `brew install ruby` in termial to install ruby
 
 - Run `ruby -v` in terminal
 
-- If version number is less than 3 link ruby by running: `brew link --overwrite ruby` in terminal
+- If version number is less than 3 link ruby by running: `brew link --overwrite ruby --force` in terminal
 
 - Run `ruby -v` in terminal and confirm verison number is greater than 3
 
