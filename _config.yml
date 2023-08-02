@@ -1,14 +1,8 @@
 title: julesvigy.com
-email: jules.vigy@aol.com
-# Socials
-linkedin_username: julesvigy
-github_username: julesvigy
 
 show_excerpts: true
 header_pages:
   - about.markdown
-
-minima: dark
 
 # Build settings
 theme: minima
