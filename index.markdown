@@ -6,5 +6,5 @@ layout: home
 list_title: " "
 ---
 
-<h1>Jules Vigy Blog</h1>
+<h1>Posts</h1>
 <h3 style="color:grey"><b>Wherever curiosity leads me.</b></h3>
