@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About Me
-permalink: /about
+title: Bio
+permalink: /bio
 ---
 
 <div style="float:left; margin-right:1.5em; margin-bottom:1.5em;" >

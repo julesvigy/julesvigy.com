@@ -3,8 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Posts
 list_title: " "
+permalink: /
 ---
-
-<h1>Posts</h1>
-<h3 style="color:grey"><b>Wherever curiosity leads me.</b></h3>

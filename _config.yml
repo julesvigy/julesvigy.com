@@ -1,7 +1,9 @@
-title: julesvigy.com
+title: Jules Vigy
 
 show_excerpts: true
 header_pages:
+  - index.markdown
+  - books.markdown
   - about.markdown
 
 # Build settings
